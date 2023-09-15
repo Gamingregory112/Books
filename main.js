@@ -11,8 +11,7 @@ function getInfo() {
 
   for (i = 0; i < objPeople.length; i++) {
     if (username == objPeople[i].username && password == objPeople[i].password) {
-      var myText = "This can be whatever text you like!";
-      alert (myText);
+      window.alert(username + " " + password);
     }
   }
 }
